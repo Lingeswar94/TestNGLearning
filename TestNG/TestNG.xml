@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG Learning" parallel="methods" thread-count="2">
+<test name="TestNG">
+<!-- <groups>
+<run>
+<include name="Vivo"></include>
+</run>
+</groups> -->
+
+<!-- <parameter name="Name" value="Lingesh"></parameter> -->
+<classes>
+<class name="TestNGLearning.ParallelTestNG"></class>
+<!-- <class name="TestNGLearning.Parameterization"></class>-->
+<!-- <class name="TestNGLearning.GroupTest" /> -->
+<!-- <class name="TestNGLearning.SampleTestcase" />
+	<class name="TestNGLearning.PriorityTestNG" />
+	<class name="TestNGLearning.Skipthetestcase" />
+	<class name="TestNGLearning.Dependencies" />
+	<class name="TestNGLearning.SuiteExpamle" /> -->
+</classes>
+
+</test>
+</suite>
